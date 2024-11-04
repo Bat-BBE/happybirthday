@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #ff6699;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #333;
+}
+
+h2 {
+    color: #ff6699;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.birthday-message, .gift-section, .video-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.video-editor {
+    display: flex;
+    justify-content: center;
+}
+
+.birthday-cake {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .birthday-message, .video-section, .gift-section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
